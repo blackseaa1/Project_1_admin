@@ -291,14 +291,14 @@
 					     <div class="page-utilities">
 						    <div class="row g-2 justify-content-start justify-content-md-end align-items-center">
 								<div class="col-auto">						    
-								    <a class="btn app-btn-secondary bg-danger text-white" href="./users.html">
+								    <a class="btn app-btn-secondary bg-danger text-white" href="./products.html">
 									    Trở Lại</a>
 							    </div>
 							</div><!--//row-->
 					    </div><!--//table-utilities-->
 				    </div><!--//col-auto-->
 			    </div><!--//row-->
-				<div class="card-body">
+				<div class="card-body bg-white p-4 border rounded">
 					<form method="post" action="index.php?controller=product&action=store" enctype="multipart/form-data">
 	
 							<div class="mb-3">
@@ -309,10 +309,8 @@
 								<label class="form-label" for="exampleInputPassword1">Product Image</label>
 								<input class="form-control" id="exampleInputPassword1" name="img" type="file">
 							</div>
-							<div class="mb-3">
-								<label class="form-label" for="exampleInputPassword1">Description</label>
-								<input class="form-control" id="exampleInputPassword1" name="description" type="text">
-							</div>
+							<label class="form-label" for="exampleInputPassword1">Description</label>
+								<textarea class="form-control"  name="description" type="text" rows="4" cols="50">At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea>
 							<div class="mb-3">
 								<label class="form-label" for="exampleInputPassword1">Author</label>
 								<input class="form-control" id="exampleInputPassword1" name="author" type="text">
